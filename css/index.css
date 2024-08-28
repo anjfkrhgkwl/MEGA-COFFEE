@@ -1133,6 +1133,10 @@ section {
     border: 1px solid transparent;
     font-size: 16px;
 }
+.section07 .inner .search_store_cont .search_box input:focus {
+    outline: none;
+    border: 3px solid var(--color-point);
+}
 .section07 .inner .search_store_cont .search_box .search_icon {
     position: absolute;
     top: 47%;
