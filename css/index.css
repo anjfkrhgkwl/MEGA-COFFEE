@@ -504,6 +504,53 @@ section {
 
 }
 
+/************************************** fixed_bar ************************************/
+.fixed_bar {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+}
+.fixed_bar .btn_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.fixed_bar .btn_wrap > div {}
+.fixed_bar .btn_wrap > div a {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 1px solid var(--color-black);
+    background-color: #ffffff8e;
+    backdrop-filter: blur(4px);
+}
+.fixed_bar .btn_wrap > div a figure {
+    height: 45px;
+}
+.fixed_bar .btn_wrap > div a figure img {
+    height: 100%;
+}
+.fixed_bar .btn_wrap > div a span {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.fixed_bar .btn_wrap .shop_btn a {
+    background-color: var(--color-black);
+}
+.fixed_bar .btn_wrap .shop_btn a span {
+    color: var(--color-point);
+}
+
+
 /********************************* event ***********************************/
 .section02 {}
 
